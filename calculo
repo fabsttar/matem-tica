@@ -1,0 +1,24 @@
+# Python: Cálculo da média aritmética
+N1 = 7
+N2 = 9
+MEDIA = (N1 + N2) / 2
+print("A média é:", MEDIA)
+
+# Python: Verificando aprovação
+N1 = 7
+N2 = 9
+MEDIA = (N1 + N2) / 2
+
+if MEDIA >= 6:
+    print("Aprovado")
+else:
+    print("Reprovado")
+
+# Python: Cálculo da média ponderada
+N1 = 7  # Peso 3
+N2 = 9  # Peso 7
+peso_N1 = 3
+peso_N2 = 7
+
+MEDIA = (N1 * peso_N1 + N2 * peso_N2) / (peso_N1 + peso_N2)
+print("A média ponderada é:", MEDIA)
